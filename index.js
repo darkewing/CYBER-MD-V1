@@ -48,7 +48,7 @@ const store = makeInMemoryStore({
   logger: pino().child({ level: "silent", stream: "store" }),
 });
 
-async function startA17() {
+async function startcybermd() {
   console.log(
     color(
       figlet.textSync("A17 Bot MD", {

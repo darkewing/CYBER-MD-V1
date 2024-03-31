@@ -66,7 +66,7 @@ async function startcybermd() {
   console.log(color('\nYou can follow me on GitHub: CYBER-MD-V1', 'aqua'))
 
   const { state, saveCreds } = await useMultiFileAuthState("./A17-SESSION");
-  const A17 = A17Connect({
+  const A17 = cybermdConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
     browser: ["A17 Bot", "Safari", "3.O"],

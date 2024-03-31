@@ -444,10 +444,10 @@ You'll be a noticeable absence!
         process.exit();
       } else if (reason === DisconnectReason.restartRequired) {
         console.log("Restart Required, Restarting...");
-        startA17();
+        startcybermd();
       } else if (reason === DisconnectReason.timedOut) {
         console.log("Connection TimedOut, Reconnecting...");
-        startA17();
+        startcybermd();
       } else {
         console.log(`Unknown DisconnectReason: ${reason}|${connection}`);
       }

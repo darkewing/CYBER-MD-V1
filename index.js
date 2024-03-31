@@ -1,6 +1,6 @@
 require("./config.js");
 const {
-  default: A17Connect,
+  default: cybermdConnect,
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,

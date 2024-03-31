@@ -1,8 +1,8 @@
 {
-  "name": "A17-MD",
+  "name": "CYBER-MD-V1",
   "description": "A WhatsApp bot based on Baileysjs library (Ts+Js) with Multi Device support",
-  "repository": "https://github.com/Kai0071/A17",
-  "logo": "https://wallpapercave.com/wp/wp6471201.jpg",
+  "repository": "https://github.com/darkewing/CYBER-MD-V1",
+  "logo": "https://telegra.ph/file/b5c73554a79f99a74055d.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {

@@ -51,7 +51,7 @@ const store = makeInMemoryStore({
 async function startcybermd() {
   console.log(
     color(
-      figlet.textSync("A17 Bot MD", {
+      figlet.textSync("CYBER-MD-V1", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -62,8 +62,8 @@ async function startcybermd() {
       "green"
     )
   );
-  console.log(color('\nHello, I am Kai, the main Developer of this bot.\n\nThanks for using: A17 Bot.', 'aqua'))
-  console.log(color('\nYou can follow me on GitHub: Kai0071', 'aqua'))
+  console.log(color('\nHello, I am CYBER-MD-V1, the main Developer of this bot.\n\nThanks for using: CYBER-MD-V1.', 'aqua'))
+  console.log(color('\nYou can follow me on GitHub: CYBER-MD-V1', 'aqua'))
 
   const { state, saveCreds } = await useMultiFileAuthState("./A17-SESSION");
   const A17 = A17Connect({
@@ -200,7 +200,7 @@ async function startcybermd() {
             A17text = `
   Hello @${WAuserName.split("@")[0]},
   
-  I am *A17 Bot*, Welcome to ${metadata.subject}.
+  I am *CYBER-MD-V1*, Welcome to ${metadata.subject}.
   
   *Group Description:*
   ${metadata.desc}
@@ -275,7 +275,7 @@ async function startcybermd() {
             A17text = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *A17 Bot*, Welcome to ${metadata.subject}.
+I am *CYBER-MD-V1*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
